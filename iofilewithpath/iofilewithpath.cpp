@@ -6,4 +6,7 @@ using namespace std;
 int main() {
 	string baring;
 	string NamaFile;
+
+	cout << "Masukkan Nama File : ";
+	cin >> NamaFile;
 }
