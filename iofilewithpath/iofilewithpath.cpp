@@ -9,4 +9,9 @@ int main() {
 
 	cout << "Masukkan Nama File : ";
 	cin >> NamaFile;
+
+	ofstream outfile;
+	outfile.open(NamaFile + ".txt", ios::out);
+
+	
 }
